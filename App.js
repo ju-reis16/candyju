@@ -86,7 +86,7 @@ export default function App() {
           
           <Text style={styles.galleryTitle}>Mais pedidos!💖</Text>
 
-          <ScrollView horizontal showsHorizontalScrollIndicator={false}>
+          <ScrollView horizontal>
             <Image
               source={{
                 uri: 'https://images.unsplash.com/photo-1488477181946-6428a0291777',
@@ -100,13 +100,7 @@ export default function App() {
               }}
               style={styles.galleryImage}
             />
-            
-            <Image
-              source={{
-                uri: 'https://images.unsplash.com/photo-1464306076886-da185f6a9d05',
-              }}
-              style={styles.galleryImage}
-            />
+
           </ScrollView>
 
           <Text style={styles.footer}>
