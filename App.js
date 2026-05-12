@@ -40,3 +40,23 @@ export default function App() {
             Descubra receitas deliciosas, doces incríveis e sobremesas fáceis
             para fazer no dia a dia.
           </Text>
+          
+          <Text style={styles.label}>Seu nome</Text>
+
+          <TextInput
+            style={styles.input}
+            placeholder="Digite seu nome"
+            placeholderTextColor={GRAY}
+          />
+
+          <Text style={styles.label}>Doce favorito</Text>
+
+          <TextInput
+            style={styles.input}
+            placeholder="Brigadeiro, cupcake, bolo..."
+            placeholderTextColor={GRAY}
+          />
+
+          <TouchableOpacity style={styles.button}>
+            <Text style={styles.buttonText}>COMEÇAR</Text>
+          </TouchableOpacity>
