@@ -28,3 +28,15 @@ export default function App() {
           <Text style={styles.subtitle}>
             O cantinho mais doce para amantes de sobremesas
           </Text>
+          
+          <Image
+            source={{
+              uri: 'https://images.unsplash.com/photo-1499636136210-6f4ee915583e',
+            }}
+            style={styles.mainImage}
+          />
+
+          <Text style={styles.description}>
+            Descubra receitas deliciosas, doces incríveis e sobremesas fáceis
+            para fazer no dia a dia.
+          </Text>
