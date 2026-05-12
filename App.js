@@ -272,3 +272,11 @@ const styles = StyleSheet.create({
     borderRadius: 18,
     marginRight: 12,
   },
+  
+  footer: {
+    textAlign: 'center',
+    marginTop: 30,
+    color: GRAY,
+    fontSize: 14,
+  },
+});
