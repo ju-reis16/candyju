@@ -25,3 +25,6 @@ export default function App() {
 
           <Text style={styles.title}>CandyJu 🍭</Text>
           
+          <Text style={styles.subtitle}>
+            O cantinho mais doce para amantes de sobremesas
+          </Text>
