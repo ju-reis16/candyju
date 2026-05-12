@@ -124,3 +124,75 @@ const styles = StyleSheet.create({
     flex: 1,
     backgroundColor: LIGHT_PINK,
   },
+
+  scroll: {
+    flexGrow: 1,
+    alignItems: 'center',
+    padding: 20,
+  },
+
+  card: {
+    width: '100%',
+    maxWidth: 400,
+    backgroundColor: WHITE,
+    borderRadius: 25,
+    padding: 24,
+    shadowColor: '#000',
+    shadowOffset: {
+      width: 0,
+      height: 3,
+    },
+    shadowOpacity: 0.2,
+    shadowRadius: 5,
+    elevation: 6,
+  },
+
+  title: {
+    fontSize: 36,
+    fontWeight: 'bold',
+    color: DARK_PINK,
+    textAlign: 'center',
+    marginBottom: 8,
+  },
+
+  subtitle: {
+    fontSize: 16,
+    color: GRAY,
+    textAlign: 'center',
+    marginBottom: 22,
+  },
+
+  mainImage: {
+    width: '100%',
+    height: 220,
+    borderRadius: 20,
+    marginBottom: 18,
+  },
+
+  description: {
+    fontSize: 15,
+    color: '#444',
+    textAlign: 'center',
+    lineHeight: 22,
+    marginBottom: 25,
+  },
+
+  label: {
+    fontSize: 15,
+    fontWeight: '600',
+    color: DARK_PINK,
+    marginBottom: 8,
+  },
+
+  input: {
+    width: '100%',
+    height: 52,
+    backgroundColor: '#fff5fa',
+    borderRadius: 14,
+    paddingHorizontal: 16,
+    fontSize: 16,
+    marginBottom: 18,
+    borderWidth: 1,
+    borderColor: '#ffc2d1',
+    color: '#333',
+  },
