@@ -83,3 +83,20 @@ export default function App() {
               🧁 Passo a passo fácil de seguir
             </Text>
           </View>
+          
+          <Text style={styles.galleryTitle}>Mais pedidos!💖</Text>
+
+          <ScrollView horizontal showsHorizontalScrollIndicator={false}>
+            <Image
+              source={{
+                uri: 'https://images.unsplash.com/photo-1488477181946-6428a0291777',
+              }}
+              style={styles.galleryImage}
+            />
+
+            <Image
+              source={{
+                uri: 'https://images.unsplash.com/photo-1519869325930-281384150729',
+              }}
+              style={styles.galleryImage}
+            />
