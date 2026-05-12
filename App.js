@@ -251,3 +251,24 @@ const styles = StyleSheet.create({
     marginBottom: 12,
   },
   
+  info: {
+    fontSize: 15,
+    color: '#444',
+    marginBottom: 8,
+  },
+
+  galleryTitle: {
+    fontSize: 20,
+    fontWeight: 'bold',
+    color: DARK_PINK,
+    marginTop: 28,
+    marginBottom: 15,
+    textAlign: 'center',
+  },
+
+  galleryImage: {
+    width: 130,
+    height: 130,
+    borderRadius: 18,
+    marginRight: 12,
+  },
