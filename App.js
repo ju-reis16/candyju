@@ -196,3 +196,58 @@ const styles = StyleSheet.create({
     borderColor: '#ffc2d1',
     color: '#333',
   },
+  
+  button: {
+    width: '100%',
+    height: 52,
+    backgroundColor: PINK,
+    borderRadius: 16,
+    justifyContent: 'center',
+    alignItems: 'center',
+    marginTop: 5,
+    shadowColor: '#ff69b4',
+    shadowOffset: {
+      width: 0,
+      height: 3,
+    },
+    shadowOpacity: 0.3,
+    shadowRadius: 4,
+    elevation: 4,
+  },
+
+  buttonText: {
+    color: WHITE,
+    fontSize: 17,
+    fontWeight: 'bold',
+  },
+
+  secondButton: {
+    width: '100%',
+    height: 52,
+    backgroundColor: '#ffe3ec',
+    borderRadius: 16,
+    justifyContent: 'center',
+    alignItems: 'center',
+    marginTop: 14,
+  },
+  
+  secondButtonText: {
+    color: DARK_PINK,
+    fontSize: 16,
+    fontWeight: 'bold',
+  },
+
+  infoBox: {
+    backgroundColor: '#fff0f6',
+    borderRadius: 18,
+    padding: 18,
+    marginTop: 28,
+  },
+
+  infoTitle: {
+    fontSize: 17,
+    fontWeight: 'bold',
+    color: DARK_PINK,
+    marginBottom: 12,
+  },
+  
