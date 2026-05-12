@@ -100,3 +100,27 @@ export default function App() {
               }}
               style={styles.galleryImage}
             />
+            
+            <Image
+              source={{
+                uri: 'https://images.unsplash.com/photo-1464306076886-da185f6a9d05',
+              }}
+              style={styles.galleryImage}
+            />
+          </ScrollView>
+
+          <Text style={styles.footer}>
+            Desenvolvido por Júlia Reis 
+          </Text>
+
+        </View>
+      </ScrollView>
+    </SafeAreaView>
+  );
+}
+
+const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    backgroundColor: LIGHT_PINK,
+  },
