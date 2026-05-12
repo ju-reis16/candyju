@@ -60,3 +60,26 @@ export default function App() {
           <TouchableOpacity style={styles.button}>
             <Text style={styles.buttonText}>COMEÇAR</Text>
           </TouchableOpacity>
+          
+          <TouchableOpacity style={styles.secondButton}>
+            <Text style={styles.secondButtonText}>VER RECEITAS</Text>
+          </TouchableOpacity>
+
+          {/* Informações */}
+          <View style={styles.infoBox}>
+            <Text style={styles.infoTitle}>
+              ✨ O que você encontra no app:
+            </Text>
+
+            <Text style={styles.info}>
+              🍰 Receitas rápidas e simples
+            </Text>
+
+            <Text style={styles.info}>
+              🍫 Doces para festas e ocasiões especiais
+            </Text>
+
+            <Text style={styles.info}>
+              🧁 Passo a passo fácil de seguir
+            </Text>
+          </View>
